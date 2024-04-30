@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="root/css/style.css" />
+    <title>Adição</title>
+  </head>
+  <body>
+    <audio id="myAudio">
+      <source src="root/audio/wrong.mp3" type="audio/mp3" />
+    </audio>
+    <header>
+      <div class="container">
+        <div class="nav">
+          <h2>
+            <span><i class="fa fa-trophy" aria-hidden="true"></i></span>
+            MATEMÁTICA PARA CRIANÇAS
+          </h2>
+          <nav>
+            <ul>
+              <li class="current"><a href="index.html">Adição</a></li>
+              <li><a href="subtracao.html">Subtração</a></li>
+              <li><a href="multiplicacao.html">Multiplicação</a></li>
+              <li><a href="divisao.html">Divisão</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="equation">
+        <h2 id="num1" style="color: #fe4a49"></h2>
+        <h2 style="color: #ff0099">+</h2>
+        <h2 id="num2" style="color: #fed766">1</h2>
+        <h2 style="color: #f86624">=</h2>
+        <h2 style="color: rgb(174, 0, 255)">?</h2>
+      </div>
+      <div class="answer-options">
+        <div class="options" style="background-color: #fe4a49">
+          <h2 id="option1">1</h2>
+        </div>
+        <div class="options" style="background-color: #ff0099">
+          <h2 id="option2">2</h2>
+        </div>
+        <div class="options" style="background-color: #fed766">
+          <h2 id="option3">3</h2>
+        </div>
+      </div>
+    </div>
+    <script src="js/add.js"></script>
+  </body>
+</html>
